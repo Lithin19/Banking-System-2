@@ -1,3 +1,14 @@
 spring:
   application:
     name: BankingSystem
+
+server:
+  port: 8900
+
+
+  datasource:
+    url: jdbc:mariadb://localhost:3307/Bankingsystem
+    username: root
+    password: root
+
+
